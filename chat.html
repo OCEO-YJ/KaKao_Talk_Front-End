@@ -6,7 +6,7 @@
     <title>Chat</title>
   </head>
   <body>
-    <head>
+    <header>
       <div class="header__top">
         <div class="header__colum">
           <i class="fa fa-plane"></i>
@@ -33,6 +33,37 @@
           <i class="fa fa-bars"></i>
         </div>
       </div>
-    </head>
+    </header>
+    <main class="chat">
+      <div class="date-divider">
+        <span class="date-divider__text">Wednesday, June 28, 2018</span>
+      </div>
+      <div class="chat__message chat__message--from-me">
+        <span class="chat__message-time">17:55</span>
+        <span class="chat__message-body">
+          Hello! This is a test message
+        </span>
+      </div>
+      <div class="chat__message chat__message--to-me">
+        <img src="images/simpson.jpg" class="chat__message-avatar">
+        <div class="chat__message-center">
+          <h3 class="chat__message_username">UW</h3>
+          <span class="chat__message-body">
+            And this is an answer
+          </span>
+        </div>
+        <span class="chat__message-time">18:55</span>
+      </div>
+    </main>
+    <div class="type-message">
+      <i class="fa fa-plus fa-2x"></i>
+      <div class="type-message__input">
+        <input type="text">
+        <i class="fa fa-smile-o"></i>
+        <span class="record-message">
+          <i class="fa fa-microphone"></i>
+        </span>
+      </div>
+    </div>
   </body>
 </html>
