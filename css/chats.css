@@ -11,11 +11,11 @@
 .chats__list .chats__chat:last-child {
   border: none;
 }
+
 .chats__chat .chat__content img {
   width: 50px;
   border-radius: 50%;
   margin-right: 15px;
-  /* border-style: solid; */
 }
 
 .chats__list .chats__chat a {
@@ -48,15 +48,23 @@
 .chat-btn {
   width: 60px;
   height: 60px;
-  background-color: #fee94a;
+  background-color: #ffe94a;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   right: 20px;
   bottom: 80px;
   font-size: 20px;
   color: #523737;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: color 0.3s, background 0.3s, transform 0.5s ease-in-out;
+}
+
+.chat-btn:hover {
+  color: white;
+  background: #523737;
+  transform: rotateY(1turn);
 }
