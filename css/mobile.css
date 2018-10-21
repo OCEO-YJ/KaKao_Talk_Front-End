@@ -1,4 +1,10 @@
-@media screen and (min-width: 530px) and (orientation: landscape) {
+@media screen and (max-width: 575px) {
+  .bigScreenText {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 700px) {
   .bigScreenText {
     display: flex;
   }

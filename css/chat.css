@@ -13,7 +13,6 @@
 
 .chat {
   background-color: #a1c0d6;
-  height: 200vh;
   padding-top: 15px;
   padding-left: 5px;
   padding-right: 5px;
@@ -27,7 +26,7 @@
 }
 
 .chat__message {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: flex;
   align-items: flex-end;
 }
@@ -57,7 +56,7 @@
   margin-right: 5px;
 }
 
-.chat__message--to-me img {
+.chat__message--to-me img:not(.exception) {
   height: 35px;
   border-radius: 50%;
   margin-right: 10px;

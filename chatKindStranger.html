@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Chat</title>
+  <title>KakaoTalk</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="body-chat">
@@ -31,7 +31,7 @@
         </a>
       </div>
       <div class="header__column">
-        <span class="header__text">YongJoon Oh</span>
+        <span class="header__text">Kind Stranger</span>
       </div>
       <div class="header__column">
         <i class="fa fa-search"></i>
@@ -40,7 +40,7 @@
     </div>
   </header>
 
-  <main class="chat">
+  <main class="chat" style="height: 415vh;">
     <div class="date-divider">
       <span class="date-divider__text">Wednesday, June 28, 2018</span>
     </div>
@@ -49,7 +49,7 @@
     <div class="chat__message chat__message-from-me">
       <span class="chat__message-time">17:55</span>
       <span class="chat__message-body">
-        Hey Joon! How are you? Can you please introduce yourself?
+        Hey Joon! Can you please tell me about the Kind Stranger that you make?
       </span>
     </div>
 
@@ -59,8 +59,10 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-          Hello :) I'm YongJoon Oh from South Korea. I usally go by Joon.
-          I am a junior majoring in Computer Science at Paul G. Allen School.
+          Sure :) The mobile application called Kind Stranger
+         provides useful information for Koreans who want to help foreigners and travelers
+         who want to adjust to Korea.
+         There are information such as phone numbers for emergency, medical cares, and language schools, etc.
         </span>
       </div>
       <span class="chat__message-time">17:56</span>
@@ -69,7 +71,7 @@
     <div class="chat__message chat__message-from-me">
       <span class="chat__message-time">18:00</span>
       <span class="chat__message-body">
-        Oh, then when do you think you are going to graduate?
+        Wow! It's awesome. Did you make it by yourself or other people?
       </span>
     </div>
 
@@ -78,7 +80,10 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-          I am graduating June 2020, so I am looking for an internship for the upcoming summer.
+          That is a great question. I and two other friends made it when we are in group called Onwing.
+          To be specific, I made it by myself for IOS Version, another friend made it for Android Version
+          and the other friend collect data to store in our server. The server is managed by me and the other
+          friend who made it for Android Version.
         </span>
       </div>
       <span class="chat__message-time">18:05</span>
@@ -87,7 +92,7 @@
     <div class="chat__message chat__message-from-me">
       <span class="chat__message-time">18:07</span>
       <span class="chat__message-body">
-        Oh, Great! Please tell me more about you like your background:)
+        Oh, It's Great! Please tell me more about it!
       </span>
     </div>
 
@@ -96,13 +101,19 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-          Since I was young I disassembled and assembled anything to make what I imagined
-          whenever I came up with some creative ideas.
-          The more I invented something, I became more fascinated with
-          its beauty and the possibility of making a better world.
+          By accessing our group's API from our database,
+          I sorted JSON to store information in an organized by categories such as phone number,
+          language school, and etc into user's phone
         </span>
       </div>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+    <div class="chat__message chat__message-from-me">
       <span class="chat__message-time">18:07</span>
+      <span class="chat__message-body">
+        Is there specific reason why you did that?
+      </span>
     </div>
 
     <div class="chat__message chat__message--to-me">
@@ -110,17 +121,20 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-        One day, I came across a book called 'Software Developer' by chance!
-        After I read a few pages, I was just fascinated with it only because
-        "I could create whatever I imagine with just a laptop."
-        This book resolved all the problems of hardships that I felt limitation
-        to prepare resources to actualize what I imagined.
-        Even though I did not understand the book at first,
-        I felt that "this is what I really want to do," and so
-        I firmly decided to be a Software Developer.
+          What if the foreigners, travelers, or even Korean
+          are not able to connect Wi-Fi or cellular data when they are in the emergency situation?
+          Even though it might take some storage, we thought it is better to make that way.
         </span>
       </div>
-      <span class="chat__message-time">18:08</span>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+    <div class="chat__message chat__message-from-me">
+      <span class="chat__message-time">18:07</span>
+      <span class="chat__message-body">
+        Oh, I see. However, I just checked on the Appstore and Google Play, but
+        it's not available on the Appstore.
+      </span>
     </div>
 
     <div class="chat__message chat__message--to-me">
@@ -128,100 +142,84 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-        Even though I did not understand the book at first,
-        I felt that "this is what I really want to do," and so
-        I firmly decided to be a Software Developer.
+          Ha Ha. That is a great question.
+          If we upload our application on the Appstore, we should pay for being a developer.
+           we uploaded at the first time, but after our membership of Apple Developer was expired,
+           we deleted it. However, you can see the source code on my GitHub page.
         </span>
       </div>
-      <span class="chat__message-time">18:09</span>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+    <div class="chat__message chat__message--to-me">
+      <img src="images/Profile.png" class="chat__message-avatar">
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">Joon</h3>
+        <span class="chat__message-body">
+          <a href="https://github.com/OCEO-YJ/KindStranger_mac">GitHub page</a>
+          <h1></h1>
+          This is the GitHub page. You can check how I made the application.
+        </span>
+      </div>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+    <div class="chat__message chat__message--to-me">
+      <img src="images/Profile.png" >
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">Joon</h3>
+        <span class="chat__message-body">
+          <img class="exception" src="images/chatKindStranger/google.png"
+          height="pixels"
+          width="500px">
+        </span>
+      </div>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+    <div class="chat__message chat__message--to-me">
+      <img src="images/Profile.png" >
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">Joon</h3>
+        <span class="chat__message-body">
+          <img class="exception" src="images/chatKindStranger/apple.png"
+          height="pixels"
+          width="400px">
+        </span>
+      </div>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+    <div class="chat__message chat__message--to-me">
+      <img src="images/Profile.png" >
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">Joon</h3>
+        <span class="chat__message-body">
+          <img class="exception" src="images/chatKindStranger/google2.png"
+          height="pixels"
+          width="500px">
+        </span>
+      </div>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+    <div class="chat__message chat__message--to-me">
+      <img src="images/Profile.png" >
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">Joon</h3>
+        <span class="chat__message-body">
+          These are Screenshots from Simulator from Xcode and Google Play Store.
+        </span>
+      </div>
+      <span class="chat__message-time">18:05</span>
     </div>
 
     <div class="chat__message chat__message-from-me">
-      <span class="chat__message-time">18:15</span>
+      <span class="chat__message-time">18:07</span>
       <span class="chat__message-body">
-        Oh! That is why you wanted to be Software Developer.
-        Then, how did you learn coding?
+        Wow! this is so cool Joon :) Thank you for introducing your application!
       </span>
     </div>
-
-    <div class="chat__message chat__message--to-me">
-      <img src="images/Profile.png" class="chat__message-avatar">
-      <div class="chat__message-center">
-        <h3 class="chat__message-username">Joon</h3>
-      <span class="chat__message-body">
-        Since I bought the book, I kept copying and pasting other developers' codes
-        to be a friend with programming. The more I analyzed other developers' codes,
-        the more I was addicted to programming because I could learn and get ideas
-        from other developers' algorithms, techniques, and ideas.
-       </span>
-      </div>
-      <span class="chat__message-time">18:17</span>
-    </div>
-
-    <div class="chat__message chat__message--to-me">
-      <img src="images/Profile.png" class="chat__message-avatar">
-      <div class="chat__message-center">
-        <h3 class="chat__message-username">Joon</h3>
-      <span class="chat__message-body">
-        Honestly, before I learned programming by myself,
-        I thought my idea was the best because I was just a big fish in a little pond.
-        However, I was totally wrong. I realized that there was an infinite
-        amount of valuable ideas that I had never thought about and
-        I felt that why programming is infinite and beautiful.
-       </span>
-      </div>
-      <span class="chat__message-time">18:18</span>
-    </div>
-
-    <div class="chat__message chat__message-from-me">
-      <span class="chat__message-time">18:25</span>
-      <span class="chat__message-body">
-        That's true! I also think the infinite ways and ideas make the programming
-        beautiful! Is there anything you want to tell more?
-      </span>
-    </div>
-
-    <div class="chat__message chat__message--to-me">
-      <img src="images/Profile.png" class="chat__message-avatar">
-      <div class="chat__message-center">
-        <h3 class="chat__message-username">Joon</h3>
-      <span class="chat__message-body">
-        I think creativity does not just simply mean innovation,
-        but it is the harmony of varying thoughts from people.
-        Every person has grown up with different experiences, cultures, and backgrounds.
-        If more diverse people collaborate, we cannot even imagine how powerful our creativity would be.
-        I would gladly dedicate my passion and career to an internship.
-      </span>
-      </div>
-      <span class="chat__message-time">18:27</span>
-    </div>
-
-    <div class="chat__message chat__message--to-me">
-      <img src="images/Profile.png" class="chat__message-avatar">
-      <div class="chat__message-center">
-        <h3 class="chat__message-username">Joon</h3>
-      <span class="chat__message-body">
-        Oh, by the way, if you want to know about my personal projects,
-        please click the 'chats' button in tab bar :)
-        there are more description, screenshots, and link to GitHub that I made as a personal project.
-        Thank you so much :)
-      </span>
-      </div>
-      <span class="chat__message-time">18:28</span>
-    </div>
-
-    <div class="chat__message chat__message-from-me">
-      <span class="chat__message-time">18:30</span>
-      <span class="chat__message-body">
-        Than you :)
-      </span>
-    </div>
-
-
-
-
-
-
 
   </main>
   <div class="type-message">
