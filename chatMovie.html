@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>KindStranger</title>
+  <title>Movie-DIC</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="body-chat">
@@ -16,7 +16,7 @@
         <i class="fa fa-wifi"></i>
       </div>
       <div class="header__column">
-        <span class="header__time">18:38</span>
+        <span class="header__time">19:38</span>
       </div>
       <div class="header__column">
         <i class="fa fa-moon-o"></i>
@@ -31,7 +31,7 @@
         </a>
       </div>
       <div class="header__column">
-        <span class="header__text">Kind Stranger</span>
+        <span class="header__text">Movie-DIC</span>
       </div>
       <div class="header__column">
         <i class="fa fa-search"></i>
@@ -40,29 +40,26 @@
     </div>
   </header>
 
-  <main class="chat" style="height: 420vh;">
+  <main class="chat" style="height: 280vh;">
     <div class="date-divider">
       <span class="date-divider__text">Wednesday, June 28, 2018</span>
     </div>
 
 
     <div class="chat__message chat__message-from-me">
-      <span class="chat__message-time">18:55</span>
+      <span class="chat__message-time">17:55</span>
       <span class="chat__message-body">
-        Hey Joon! Can you please tell me about the Kind Stranger that you make?
+        Hey Joon! Can you please tell me about the Movie-DIC that you make?
       </span>
     </div>
-
 
     <div class="chat__message chat__message--to-me">
       <img src="images/Profile.png" class="chat__message-avatar">
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-          Sure :) The mobile application called Kind Stranger
-         provides useful information for Koreans who want to help foreigners and travelers
-         who want to adjust to Korea.
-         There are information such as phone numbers for emergency, medical cares, and language schools, etc.
+        Sure :) The web application called Movie-Dic provides movie title, genres, synopsis, and
+        image cover of the movies by sorting JSON from yts.am API.
         </span>
       </div>
       <span class="chat__message-time">17:56</span>
@@ -71,7 +68,7 @@
     <div class="chat__message chat__message-from-me">
       <span class="chat__message-time">18:00</span>
       <span class="chat__message-body">
-        Wow! It's awesome. Did you make it by yourself or other people?
+        Wow! It's cool Joon, then how do you sort the movies?
       </span>
     </div>
 
@@ -80,10 +77,8 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-          That is a great question. I and two other friends made it when we are in group called Onwing.
-          To be specific, I made it by myself for IOS Version, another friend made it for Android Version
-          and the other friend collect data to store in our server. The server is managed by me and the other
-          friend who made it for Android Version.
+          That is a great question. Actually, the yts.am API provides a sorted method by genres, year, like counts, and etc.
+          At this time, the web page only displays the movie sorted by download count.
         </span>
       </div>
       <span class="chat__message-time">18:05</span>
@@ -92,7 +87,7 @@
     <div class="chat__message chat__message-from-me">
       <span class="chat__message-time">18:07</span>
       <span class="chat__message-body">
-        Oh, It's Great! Please tell me more about it!
+        Oh, why does it only display the movie information sorted by download count?
       </span>
     </div>
 
@@ -101,9 +96,10 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-          By accessing our group's API from our database,
-          I sorted JSON to store information in an organized by categories such as phone number,
-          language school, and etc into user's phone
+          It is because there was some unnecessary information that I did not want.
+          Therefore, I made my own API to get the JSON data that I wanted exactly.
+          So, I will update the web page that displays movie information by rating, like counts, year, and etc.
+          by using my own API.
         </span>
       </div>
       <span class="chat__message-time">18:05</span>
@@ -112,7 +108,7 @@
     <div class="chat__message chat__message-from-me">
       <span class="chat__message-time">18:07</span>
       <span class="chat__message-body">
-        Is there specific reason why you did that?
+        Oh I see, I have a question. Is there any reason why did you make this web application?
       </span>
     </div>
 
@@ -121,19 +117,17 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-          What if the foreigners, travelers, or even Korean
-          are not able to connect Wi-Fi or cellular data when they are in the emergency situation?
-          Even though it might take some storage, we thought it is better to make that way.
+          It is because I wanted to try a new programming environment. I heard a lot of applications and web pages are made by React.
+          And I really really like to watch a movie! I was VIP customer in a theater called CGV! Therefore, I thought it would be great to make a web page that shows movie information, so I can easily know what I should watch :)
         </span>
       </div>
-      <span class="chat__message-time">18:05</span>
+      <span class="chat__message-time">18:10</span>
     </div>
 
     <div class="chat__message chat__message-from-me">
-      <span class="chat__message-time">18:07</span>
+      <span class="chat__message-time">18:10</span>
       <span class="chat__message-body">
-        Oh, I see. However, I just checked on the Appstore and Google Play, but
-        it's not available on the Appstore.
+        Oh, that is interesting! Could you also provide Github URL for this personal project?
       </span>
     </div>
 
@@ -142,26 +136,15 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-          Ha Ha. That is a great question.
-          If we upload our application on the Appstore, we should pay for being a developer.
-           we uploaded at the first time, but after our membership of Apple Developer was expired,
-           we deleted it. However, you can see the source code on my GitHub page.
-        </span>
-      </div>
-      <span class="chat__message-time">18:05</span>
-    </div>
-
-    <div class="chat__message chat__message--to-me">
-      <img src="images/Profile.png" class="chat__message-avatar">
-      <div class="chat__message-center">
-        <h3 class="chat__message-username">Joon</h3>
-        <span class="chat__message-body">
-          <a href="https://github.com/OCEO-YJ/KindStranger_mac">GitHub page</a>
+          <a href="https://github.com/OCEO-YJ/movie_app_clone">GitHub page</a>
           <h1></h1>
-          This is the GitHub page. You can check how I made the application.
+          Sure! This is the GitHub page. You can check how I made the application.
+          <a href="https://oceo-yj.github.io/movie_app_clone/">Movie-DIC</a>
+          <h1></h1>
+          Also, this is web page's link :)
         </span>
       </div>
-      <span class="chat__message-time">18:05</span>
+      <span class="chat__message-time">18:11</span>
     </div>
 
     <div class="chat__message chat__message--to-me">
@@ -169,12 +152,12 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-          <img class="exception" src="images/chatKindStranger/google.png"
+          <img class="exception" src="images/chatMovie/web.png"
           height="pixels"
           width="500px">
         </span>
       </div>
-      <span class="chat__message-time">18:05</span>
+      <span class="chat__message-time">18:11</span>
     </div>
 
     <div class="chat__message chat__message--to-me">
@@ -182,12 +165,12 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-          <img class="exception" src="images/chatKindStranger/apple.png"
+          <img class="exception" src="images/chatMovie/api.png"
           height="pixels"
           width="400px">
         </span>
       </div>
-      <span class="chat__message-time">18:05</span>
+      <span class="chat__message-time">18:11</span>
     </div>
 
     <div class="chat__message chat__message--to-me">
@@ -195,29 +178,16 @@
       <div class="chat__message-center">
         <h3 class="chat__message-username">Joon</h3>
         <span class="chat__message-body">
-          <img class="exception" src="images/chatKindStranger/google2.png"
-          height="pixels"
-          width="500px">
+          These are Screenshots about the web page and API that I made by Graphql.
         </span>
       </div>
-      <span class="chat__message-time">18:05</span>
-    </div>
-
-    <div class="chat__message chat__message--to-me">
-      <img src="images/Profile.png" >
-      <div class="chat__message-center">
-        <h3 class="chat__message-username">Joon</h3>
-        <span class="chat__message-body">
-          These are Screenshots from Simulator from Xcode and Google Play Store.
-        </span>
-      </div>
-      <span class="chat__message-time">18:05</span>
+      <span class="chat__message-time">18:12</span>
     </div>
 
     <div class="chat__message chat__message-from-me">
-      <span class="chat__message-time">18:07</span>
+      <span class="chat__message-time">18:15</span>
       <span class="chat__message-body">
-        Wow! this is so cool Joon :) Thank you for introducing your application!
+        Oh! this is so awesome Joon :) Thank you for introducing your application!
       </span>
     </div>
 
@@ -240,6 +210,5 @@
   <div class="smallScreenText">
     <span>Please make your screen bigger</span>
   </div>
-
 </body>
 </html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body-chat">
+  <header class="top-header chat-header">
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fa fa-plane"></i>
+        <i class="fa fa-wifi"></i>
+      </div>
+      <div class="header__column">
+        <span class="header__time">18:38</span>
+      </div>
+      <div class="header__column">
+        <i class="fa fa-moon-o"></i>
+        <i class="fa fa-bluetooth-b"></i>
+        <span class="header__battery">100% <i class="fa fa-battery-full"></i></span>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__column">
+        <a href="chats.html">
+          <i class="fa fa-chevron-left fa-lg"></i>
+        </a>
+      </div>
+      <div class="header__column">
+        <span class="header__text">Weather App</span>
+      </div>
+      <div class="header__column">
+        <i class="fa fa-search"></i>
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <main class="chat" style="height: 240vh;">
+    <div class="date-divider">
+      <span class="date-divider__text">Wednesday, June 28, 2018</span>
+    </div>
+
+
+    <div class="chat__message chat__message-from-me">
+      <span class="chat__message-time">17:55</span>
+      <span class="chat__message-body">
+        Hey Joon! Can you please tell me about the Weather App that you make?
+      </span>
+    </div>
+
+    <div class="chat__message chat__message--to-me">
+      <img src="images/Profile.png" class="chat__message-avatar">
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">Joon</h3>
+        <span class="chat__message-body">
+          Sure :) This application provides current temperature and name of weather such as 'Sunny','Raining', and etc.
+          with cute emoticons and one sentence for a user to start day happily.
+        </span>
+      </div>
+      <span class="chat__message-time">17:56</span>
+    </div>
+
+    <div class="chat__message chat__message-from-me">
+      <span class="chat__message-time">18:00</span>
+      <span class="chat__message-body">
+        Oh that is so sweet! How does application display temperature?
+        Do we need to provide our location?
+      </span>
+    </div>
+
+    <div class="chat__message chat__message--to-me">
+      <img src="images/Profile.png" class="chat__message-avatar">
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">Joon</h3>
+        <span class="chat__message-body">
+          It is a really great question! I used geolocation and openweathermap's API, so the application throws the user's current location coordinate to the API and it gets current weather information.
+          All you need to do is just to run the application to know weather :)
+        </span>
+      </div>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+    <div class="chat__message chat__message-from-me">
+      <span class="chat__message-time">18:07</span>
+      <span class="chat__message-body">
+        Oh, that is interesting! Could you also provide Github URL for this personal project?
+      </span>
+    </div>
+
+    <div class="chat__message chat__message--to-me">
+      <img src="images/Profile.png" class="chat__message-avatar">
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">Joon</h3>
+        <span class="chat__message-body">
+          <a href="https://github.com/OCEO-YJ/weather">GitHub page</a>
+          <h1></h1>
+          Sure! This is the GitHub page. You can check how I made the application.
+        </span>
+      </div>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+    <div class="chat__message chat__message--to-me">
+      <img src="images/Profile.png" >
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">Joon</h3>
+        <span class="chat__message-body">
+          <img class="exception" src="images/chatWeather/1.jpeg"
+          height="300px"
+          width="pixels">
+          <img class="exception" src="images/chatWeather/2.jpeg"
+          height="300px"
+          width="pixels">
+          <img class="exception" src="images/chatWeather/3.jpeg"
+          height="300px"
+          width="pixels">
+        </span>
+      </div>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+    <div class="chat__message chat__message--to-me">
+      <img src="images/Profile.png" >
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">Joon</h3>
+        <span class="chat__message-body">
+          <img class="exception" src="images/chatWeather/4.jpeg"
+          height="300px"
+          width="pixels">
+          <img class="exception" src="images/chatWeather/5.jpeg"
+          height="300px"
+          width="pixels">
+          <img class="exception" src="images/chatWeather/6.jpeg"
+          height="300px"
+          width="pixels">
+        </span>
+      </div>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+
+    <div class="chat__message chat__message--to-me">
+      <img src="images/Profile.png" >
+      <div class="chat__message-center">
+        <h3 class="chat__message-username">Joon</h3>
+        <span class="chat__message-body">
+          These are Screenshots about the Weather App.
+          A reason why the application display 9 degree on temperature part for every screenshot is that I used the geolocation, so the application only gets my current location. So, I changed the only the structure of the weather part to display many kinds of weather. Besides these screenshots, there are more weather information.
+        </span>
+      </div>
+      <span class="chat__message-time">18:05</span>
+    </div>
+
+    <div class="chat__message chat__message-from-me">
+      <span class="chat__message-time">18:07</span>
+      <span class="chat__message-body">
+        Oh, I see! Thank you for introducing your application :)
+      </span>
+    </div>
+
+  </main>
+  <div class="type-message">
+    <i class="fa fa-plus fa-lg"></i>
+    <div class="type-message__input">
+      <input type="text">
+      <i class="fa fa-smile-o fa-lg"></i>
+      <span class="record-message">
+        <i class="fa fa-microphone fa-lg"></i>
+      </span>
+    </div>
+    <div class="bigScreenText">
+      <span>Please make your screen smaller</span>
+    </div>
+
+    <div class="smallScreenText">
+      <span>Please make your screen bigger</span>
+    </div>
+</body>
+</html>
